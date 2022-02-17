@@ -39,7 +39,7 @@ public class SimulationOptions implements ChangeSource, Cloneable {
 	
 	private static final Logger log = LoggerFactory.getLogger(SimulationOptions.class);
 	
-	public static final double MAX_LAUNCH_ROD_ANGLE = Math.PI / 3;
+	public static final double MAX_LAUNCH_ROD_ANGLE = Math.PI / 6;
 	
 	/**
 	 * The ISA standard atmosphere.
