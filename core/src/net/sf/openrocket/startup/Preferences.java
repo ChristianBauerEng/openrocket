@@ -214,7 +214,7 @@ public abstract class Preferences implements ChangeSource {
 	}
 	
 	public void setLaunchRodAngle(double launchRodAngle) {
-		launchRodAngle = MathUtil.clamp(launchRodAngle, -Math.PI / 6.0, Math.PI / 6.0);
+		launchRodAngle = MathUtil.clamp(launchRodAngle, -Math.PI / 7.0, Math.PI / 7.0);
 		if (MathUtil.equals(this.getDouble(LAUNCH_ROD_ANGLE, 0), launchRodAngle))
 			return;
 		this.putDouble(LAUNCH_ROD_ANGLE, launchRodAngle);
